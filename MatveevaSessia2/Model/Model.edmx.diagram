@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1da4df2a0ebb4097b9d676a00f4535af" Name="Diagram1">
+        <EntityTypeShape EntityType="user6Model.Gender" Width="1.5" PointX="1.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.Inventory" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.Pharmaces" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.Phurchases" Width="1.5" PointX="6" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.Products" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.Reports" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.Role" Width="1.5" PointX="1.5" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.Sales" Width="1.5" PointX="3" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.Suppliers" Width="1.5" PointX="3.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="user6Model.User" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <AssociationConnector Association="user6Model.FK_User_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="user6Model.FK_Inventory_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="user6Model.FK_Pharmaces_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="user6Model.FK_Pharmaces_Reports" ManuallyRouted="false" />
+        <AssociationConnector Association="user6Model.FK_Pharmaces_User" ManuallyRouted="false" />
+        <AssociationConnector Association="user6Model.FK_Phurchases_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="user6Model.FK_Phurchases_Suppliers" ManuallyRouted="false" />
+        <AssociationConnector Association="user6Model.FK_Sales_Products" ManuallyRouted="false" />
+        <AssociationConnector Association="user6Model.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
